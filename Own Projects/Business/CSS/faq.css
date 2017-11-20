@@ -13,18 +13,24 @@ h2    {
 .thing {
 	text-align: center;
 	font-family: lucida calligraphy;
-	color: #932210;
+	color: #6E248D;
 }
 body {
-background: url("blue.jpg") no-repeat;
+background-color: #5DADE2;
 background-size: cover;
 }
 img {
      float: right;
-    padding-right: 110px;
+    padding-right: 140px;
     padding-bottom: 100px;
     padding-top: 150px;
   }
+
+#img {
+	float: left;
+  
+  padding-left: 90px;
+}
 ul {
 	padding-top: 10px;
     padding-right: 30px;
@@ -45,13 +51,19 @@ ul {
   .floating-box {
     padding-top: 10px;
     padding-left: 30px;
-    width: 420px;
-    height: 320px;
+    width: 350px;
+    height: 450px;
     margin: 10px;
     border: 3px solid #73AD21; 
     background-color: white;
     font-size: 18px;
 }
-p {
+ p {
+  color: green;
+ }
+ #content {
+   color:  blue;
+ }
+ .content {
   color: red;
-}
+ }

@@ -10,16 +10,22 @@ h2    {
   text-align: center;
   color: #EA4C88;
        }
-.content  {
+.thing {
 	text-align: center;
 	font-family: lucida calligraphy;
 	color: #6E248D;
 }
 body {
-background: url("blue.jpg") no-repeat;
+background-color: #5DADE2;
 background-size: cover;
 }
-ul {
+ #content img {
+     float: right;
+    padding-right: 180px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+  }
+  ul {
 	padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 10px;
@@ -31,29 +37,45 @@ ul {
    a {
   	color: #005C01;
   }
-  li {
-  	display: inline;
-  	padding: 0px 10px 0px 10px;
-  	width: 50px;
+   li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    width: 50px;
   }
-.floating-box {
+  .floating-box {
     padding-top: 10px;
     padding-left: 30px;
     width: 350px;
-    height: 400px;
-    margin: 10px;
+    height: 720px;
+     /*margin: 0 auto;*/
     border: 3px solid #73AD21; 
     background-color: white;
     font-size: 18px;
+    display: inline-block;
 }
-   
-    p {
-    	color: blue;
-    }
-    .color {
-    	color: green;
-    }
-    .right {
-           float: right;
-         padding: 0px;  
-    }
+ p {
+  color: green;
+ }
+ #content {
+   color:  blue;
+ }
+ .content {
+  color: red;
+ }
+ .buy {
+  height: 110px;
+  width: 150px;
+ 
+}
+ 
+ .key {
+  height: 110px;
+  width: 150px;
+ 
+  margin: 0 auto;
+ }
+
+    
+
+ 
+

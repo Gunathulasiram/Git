@@ -13,19 +13,19 @@ h2    {
 .thing {
 	text-align: center;
 	font-family: lucida calligraphy;
-	color: #6E248D;
+	color: #932210;
 }
 body {
-background: url("blue.jpg") no-repeat;
+background-color: #5DADE2;
 background-size: cover;
 }
- #content img {
+img {
      float: right;
-    padding-right: 180px;
-    padding-bottom: 10px;
-    padding-top: 0px;
+    padding-right: 110px;
+    padding-bottom: 100px;
+    padding-top: 150px;
   }
-  ul {
+ul {
 	padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 10px;
@@ -44,38 +44,21 @@ background-size: cover;
   }
   .floating-box {
     padding-top: 10px;
-    padding-left: 30px;
-    width: 350px;
-    height: 720px;
-     /*margin: 0 auto;*/
+    
+    width: 420px;
+    height: 430px;
+    margin: 10px;
     border: 3px solid #73AD21; 
     background-color: white;
     font-size: 18px;
-    display: inline-block;
 }
- p {
-  color: green;
- }
- #content {
-   color:  blue;
- }
- .content {
-  color: red;
- }
- .buy {
-  height: 110px;
-  width: 150px;
- 
+p {
+  color: #E74C3C;
 }
- 
- .key {
-  height: 110px;
-  width: 150px;
- 
-  margin: 0 auto;
- }
-
-    
-
- 
-
+#floating-box {
+  padding-top: 20px;
+  width: 520px;
+  height: 50px;
+  background-color: white;
+  border: 3px solid #73AD21;
+}

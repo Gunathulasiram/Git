@@ -10,27 +10,21 @@ h2    {
   text-align: center;
   color: #EA4C88;
        }
-.content {
+.thing {
 	text-align: center;
 	font-family: lucida calligraphy;
-	color: #CA2C68;
+	color: #932210;
 }
 body {
-background: url("blue.jpg") no-repeat;
+background-color: #5DADE2;
 background-size: cover;
 }
 img {
      float: right;
-    padding-right: 140px;
+    padding-right: 110px;
     padding-bottom: 100px;
     padding-top: 150px;
   }
-
-#img {
-	float: left;
-  
-  padding-left: 90px;
-}
 ul {
 	padding-top: 10px;
     padding-right: 30px;
@@ -40,31 +34,24 @@ ul {
   	width: 920px;
   	text-align: center;
   }
-  a {
-    color: #005C01;
+   a {
+  	color: #005C01;
   }
-  li {
+   li {
     display: inline;
     padding: 0px 10px 0px 10px;
     width: 50px;
   }
   .floating-box {
-    padding-top: 7px;
-    padding-left: 10px;
-    width: 350px;
-    height: 400px;
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 420px;
+    height: 320px;
     margin: 10px;
     border: 3px solid #73AD21; 
     background-color: white;
     font-size: 18px;
 }
-    
 p {
-  color: #22A7F0;
-  font-size: 20px;
-  
-}
-#content {
   color: red;
-  font-size: 23px;
 }

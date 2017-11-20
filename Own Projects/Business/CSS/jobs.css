@@ -16,21 +16,15 @@ h2    {
 	color: #6E248D;
 }
 body {
-background: url("blue.jpg") no-repeat;
+background-color: #5DADE2;
 background-size: cover;
 }
 img {
      float: right;
-    padding-right: 140px;
+    padding-right: 110px;
     padding-bottom: 100px;
     padding-top: 150px;
   }
-
-#img {
-	float: left;
-  
-  padding-left: 90px;
-}
 ul {
 	padding-top: 10px;
     padding-right: 30px;
@@ -51,12 +45,16 @@ ul {
   .floating-box {
     padding-top: 10px;
     padding-left: 30px;
-    width: 350px;
-    height: 450px;
+    width: 390px;
+    height: 520px;
     margin: 10px;
     border: 3px solid #73AD21; 
     background-color: white;
     font-size: 18px;
+}
+p:first-letter {
+	font-size: 300%;
+    
 }
  p {
   color: green;
@@ -65,5 +63,8 @@ ul {
    color:  blue;
  }
  .content {
-  color: red;
+  color: #CA2C68;
+ }
+ .point {
+ 	color: #005B50;
  }
